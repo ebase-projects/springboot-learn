@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: chapter2-1
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    jmx:
+      exposure:
+        include: '*'
+    web:
+      exposure:
+        include: '*'
+
