@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>springboot-learn</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <!--#快速入门-->
+
+        <!--#API开发-->
+        <module>chapter2-1</module><!-- 使用Swagger2构建强大的API文档 -->
+        <!-- 构建RESTful API与单元测试 -->
+        <!-- JSR-303实现请求参数校验 -->
+        <!-- Swagger接口分类与各元素排序问题详解 -->
+        <!-- Swagger静态文档的生成 -->
+        <!-- 找回启动日志中的请求路径列表 -->
+        <!-- 使用SpringFox3生成Swagger文档 -->
+        <!-- 2-8 使用Webflux编写API接口 -->
+
+        <!--#数据访问（关系型数据库）-->
+        <!-- 使用JdbcTemplate访问MySQL数据库 -->
+        <!-- 默认数据源Hikari的配置详解 -->
+        <!-- 使用国产数据库连接池Druid -->
+        <!-- 使用Spring Data JPA访问MySQL -->
+        <!-- 使用 MyBatis -->
+        <!-- 使用 MyBatis（xml配置方式）-->
+        <!-- JdbcTemplate的多数据源配置 -->
+        <!-- Spring Data JPA的多数据源配置 -->
+        <!-- MyBatis的多数据源配置 -->
+        <!-- 事务管理入门 -->
+        <!-- 3-11 使用Flyway管理数据库版本 -->
+        <!-- 3-12 使用Liquibase管理数据库版本 -->
+        <!-- 3-13 分布式事务 -->
+
+        <!-- #Web开发 -->
+        <!-- 使用 Thymeleaf开发Web页面 -->
+        <!-- 使用 ECharts 绘制折线图 -->
+
+        <!-- #缓存 -->
+        <!-- 使用进程内缓存 -->
+        <!-- 使用进程内缓存 EhCache -->
+        <!-- 使用EhCache缓存集群 -->
+        <!-- 5-4 使用集中式缓存Redis -->
+        <!-- 5-5 Redis + EhCache的二连组合拳 -->
+
+        <!-- #其他常用的数据储存 -->
+        <!-- 6-1 使用MongoDB -->
+        <!-- 6-2 使用Elasticsearch -->
+        <!-- 6-3 使用轻量级树状存储 LDAP -->
+        <!-- 6-4 使用时序数据库 InfluxDB -->
+
+
+    </modules>
+
+</project>
