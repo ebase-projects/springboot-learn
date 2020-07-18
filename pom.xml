@@ -11,6 +11,7 @@
 
     <modules>
         <!--#快速入门-->
+        <module>chapter1-1</module><!--Hello world-->
 
         <!--#API开发-->
         <module>chapter2-1</module><!-- 使用Swagger2构建强大的API文档 -->
